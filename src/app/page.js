@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     
-    <section className="border min-h-[100dvh] flex items-center justify-center w-screen">
+    <section className="min-h-[100dvh] flex items-center justify-center w-screen">
 
       <Bento />
 

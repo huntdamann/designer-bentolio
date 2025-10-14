@@ -65,7 +65,7 @@ export default function Bento({photo, photo1, photo2, photo3}) {
   return (
     <>
 
-      <motion.div variants={container} initial="hidden" animate="visible" className="grid  lg:w-[55rem] sm:grid-cols-1 md:grid-cols-3 gap-2 p-2 w-full">
+      <motion.div variants={container} initial="hidden" animate="visible" className="grid dark:text-black  lg:w-[55rem] sm:grid-cols-1 md:grid-cols-3 gap-2 p-2 w-full">
         <motion.div variants={toptile} initial="hidden" animate="visible"  className="shadow-[-1px_1px_20px_5px_rgba(0,_0,_0,_0.1)] relative bg-amber-50 lg:col-span-3 h-[6rem] flex items-center justify-center rounded-md overflow-hidden">
 
             <span id="brand">Brand Logo Here</span>
