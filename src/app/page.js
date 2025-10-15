@@ -8,7 +8,7 @@ export default function Home() {
     
     <section className="min-h-[100dvh] flex items-center justify-center w-screen">
 
-      <Bento />
+      <Bento initialVariant={1} />
 
     </section>
     </>
